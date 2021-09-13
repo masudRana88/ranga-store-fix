@@ -75,11 +75,7 @@ const updateTaxAndCharge = () => {
     setInnerText("total-tax", (priceConverted * 0.4).toFixed(2));
   }
 };
-// set InnerText
-// const setInnerText = (id, value) =>{
-//   const element = getElementById(id);
-//   element.innerText = value;
-// }
+
 //grandTotal update function
 const updateTotal = () => {
   const grandTotal =
