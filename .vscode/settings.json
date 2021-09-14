@@ -1,0 +1,7 @@
+{
+    "css.lint.argumentsInColorFunction": "ignore",
+    "css.lint.emptyRules": "ignore",
+    "css.lint.fontFaceProperties": "ignore",
+    "css.lint.unknownAtRules": "ignore",
+    "css.lint.unknownProperties": "ignore"
+}

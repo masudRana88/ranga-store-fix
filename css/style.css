@@ -31,11 +31,29 @@ body {
   background-color: rgb(179, 228, 228);
   box-shadow: 4px 4px 7px gray;
   border-radius: 10px;
-  border: 2px solid rgb(255, 0, 191);
+  border: 1px solid rgb(255, 0, 191);
 }
 .product-image {
   width: 150px;
   height: 150px;
+}
+.rating{
+  color: rgb(255, 0, 191);
+  font-weight: 700;
+}
+#addToCart-btn, #details-btn{
+  border: 2px solid black;
+  font-weight: bold;
+}
+#addToCart-btn:hover{
+  background-color: orange;
+  transition: 500ms;
+  color: aliceblue;
+}
+#details-btn:hover{
+  color: aliceblue;
+  background-color: rgb(38, 119, 38);
+  transition: 0.5s;
 }
 .cart {
   width: 350px;
